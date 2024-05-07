@@ -1,3 +1,5 @@
+package TwoD_Arrays;
+
 import java.util.Scanner;
 
 public class ArraySum {
