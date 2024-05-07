@@ -1,4 +1,4 @@
-package TwoD_Arrays;
+package Arrays;
 
 import java.util.Arrays;
 
