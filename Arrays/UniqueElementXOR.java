@@ -18,6 +18,7 @@ public class UniqueElementXOR {
         int unique = 0;
         for (int val : arr) {
             unique ^= val;
+            System.out.println("unique val::" + unique);
         }
         return unique;
     }
