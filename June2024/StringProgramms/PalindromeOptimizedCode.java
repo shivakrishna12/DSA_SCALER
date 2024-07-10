@@ -8,6 +8,8 @@ public class PalindromeOptimizedCode {
             Scanner sc = new Scanner(System.in);
             System.out.println("Enter word ::");
             String word = sc.next();
+
+
             //equals()
             //==
             //compareTo
