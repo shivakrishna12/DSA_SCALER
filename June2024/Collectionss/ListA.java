@@ -19,12 +19,15 @@ public class ListA {
         //for loop
         for (int i = 0; i < al.size(); i++) {
             System.out.println("i---" + al.get(i));
+            //  al.add(500);
+            al.remove(3);
         }
         //forEach loop
         System.out.println("for Each loop Example::::");
         int sizeOfArraylist = 0;
         for (Integer item : al) {
             System.out.println(item);
+            al.add(500);
             sizeOfArraylist += 1;
         }
         System.out.println("size of the arryList:::" + sizeOfArraylist);
@@ -34,6 +37,7 @@ public class ListA {
         Iterator<Integer> itr = al.iterator();
         while (itr.hasNext()) {
             System.out.println(itr.next());
+            al.add(500);
         }
 
 
